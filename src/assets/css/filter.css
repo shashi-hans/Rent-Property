@@ -1,0 +1,51 @@
+#main {
+  margin: 100px;
+}
+#main2 {
+  font-size: xx-large;
+  font-weight: bold;
+  padding: 5px;
+}
+#main2 select {
+  float: right;
+  padding: 5px;
+  border-radius: 5px;
+}
+.main {
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.filter-grp{
+  display: flex;
+  border-right: 1px solid blueviolet;
+  flex-direction: column;
+  justify-content: end;
+  background: #fff;
+  padding-right: 10px;
+}
+.filter-grp label{
+  background-color: white;
+}
+.option {
+  border: none;
+  background-color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+.Search1 {
+  background-color: white;
+  margin-top: 10px;
+}
+.Search2 {
+  background-color: blueviolet;
+  color: white;
+  float: right;
+  margin-right: 10px;
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+}

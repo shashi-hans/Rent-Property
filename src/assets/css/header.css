@@ -1,0 +1,32 @@
+nav {
+  padding: 20px;
+  border: 2px solid rgb(241, 241, 250);
+  font-weight: bold;
+}
+
+#right {
+  float: right;
+  padding: 5px 12px;
+  margin-left: 10px;
+  border-radius: 5px;
+  color: blueviolet;
+  font-weight: bold;
+}
+
+#right:hover {
+  color: rgb(255, 251, 251);
+  background-color: blueviolet;
+}
+
+select,
+a {
+  text-decoration: none;
+  margin-left: 10px;
+  padding: 5px 12px;
+  font-weight: bold;
+}
+
+.option2 {
+  border: none;
+  background-color: white;
+}
