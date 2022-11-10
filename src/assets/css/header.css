@@ -17,16 +17,21 @@ nav {
   color: rgb(255, 251, 251);
   background-color: blueviolet;
 }
-
-select,
 a {
   text-decoration: none;
   margin-left: 10px;
   padding: 5px 12px;
   font-weight: bold;
 }
-
+nav select{
+  margin-left: 10px;
+  padding: 5px 12px;
+  font-weight: bold;
+}
 .option2 {
   border: none;
   background-color: white;
+}
+h1{
+  text-align: center;
 }

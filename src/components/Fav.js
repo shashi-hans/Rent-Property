@@ -10,13 +10,13 @@ function Fav(){
     }, [])
 
     if(favlist.length===0) return <center>
-        <h1>No Favorite Property</h1>
+        <h1>No Favourite Property</h1>
     </center>;
 
 
     return(
         <>
-        <h1>Favroute Properties</h1>
+        <h1>Favourite Properties</h1>
         <Result  filteredData={getFavList()}/>
         </>
 

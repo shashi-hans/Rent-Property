@@ -15,25 +15,34 @@
   background-color: white;
   padding: 10px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
 }
-.filter-grp{
+.filter-grp {
   display: flex;
   border-right: 1px solid blueviolet;
   flex-direction: column;
   justify-content: end;
   background: #fff;
-  padding-right: 10px;
+  padding-right: 90px;
 }
-.filter-grp label{
+.label {
   background-color: white;
+  padding-left: 15px;
+}
+select {
+  padding-left: 10px;
+  font-weight: bold;
 }
 .option {
   border: none;
   background-color: white;
   font-weight: bold;
   font-size: 15px;
+}
+.filter-grp input {
+  padding: 5px;
+  margin-left: 15px;
 }
 .Search1 {
   background-color: white;
@@ -43,7 +52,7 @@
   background-color: blueviolet;
   color: white;
   float: right;
-  margin-right: 10px;
+  margin: 15px;
   padding: 10px 25px;
   border-radius: 5px;
   font-weight: bold;

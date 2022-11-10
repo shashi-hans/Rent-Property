@@ -38,7 +38,7 @@ function Filter(props) {
             </select>
           </div>
           <div className="filter-grp">
-            <label className="label">When</label>
+            <label className="label">Move-in Date</label>
             <input type="date" id="date" ref={dateRef}  />
           </div>
           <div className="filter-grp">
