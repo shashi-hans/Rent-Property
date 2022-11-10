@@ -15,7 +15,7 @@ nav {
 
 #right:hover {
   color: rgb(255, 251, 251);
-  background-color: blueviolet;
+  background-color: red;
 }
 a {
   text-decoration: none;
