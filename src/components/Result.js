@@ -18,7 +18,7 @@ function Result(props) {
     });
     return cardList;
   };
-  const favHandler = (id) => {
+  const favHandler = (id) => {  
     const list = filteredData.slice()
     list.forEach((item) => {
       if (item.id === id) {

@@ -26,9 +26,7 @@ export function setFav(id) {
 	}
 }
 export function getFavList() {
-	
-	return cardData.filter((item)=>{
-		if (favPropertyMap[item.id])
-		return true
-	})
+    return cardData.filter((item) => {
+        return favPropertyMap.hasOwnProperty(item.id) && favPropertyMap[item.id] === true;
+    });
 }
